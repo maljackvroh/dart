@@ -1,18 +1,11 @@
-//
-dart.dev/#try-dart
 
 //
-void = tampa mengembalikan nilai
+import 'dart:io';
 
-//
 main() {
-	print("Hello World");
-	print(getText());
+	String input = stdin.readLineSync();
+	double number = stdin.tryParse(input);
+	print(number + 10);
 }
 
-void tambah() {
-	print("Hello, World");
-}
-String getText() {
-	return '123';
-}
+//
