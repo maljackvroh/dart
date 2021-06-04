@@ -1,14 +1,12 @@
-main() {
-  double panjang;
-  double lebar;
-  double luas;
+void main() {
+  const double PI = 3.14;
+  const MAX = 100;
 
-  panjang = 10.0;
-  lebar = 8.0;
+// final = yang dibuat hanya sekali
+  final String BAHASA = 'dart';
+  final VERSI = '2.9.2';
 
-  luas = panjang * lebar;
-
-  //toString() //mengkompersi dari double ke string
-  print('luas persegi panjang : ' + luas.toString()); 
+  print('nilai PI adalah :' + PI.toString());
+  print(BAHASA + ' ' + VERSI);
 
 }
