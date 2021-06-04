@@ -1,0 +1,18 @@
+//
+dart.dev/#try-dart
+
+//
+void = tampa mengembalikan nilai
+
+//
+main() {
+	print("Hello World");
+	print(getText());
+}
+
+void tambah() {
+	print("Hello, World");
+}
+String getText() {
+	return '123';
+}
